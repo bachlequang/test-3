@@ -60,3 +60,5 @@ else:
                     file.seek(where)
                 else:
                     print line,
+                    
+file.close()
