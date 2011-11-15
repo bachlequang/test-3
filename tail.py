@@ -50,7 +50,7 @@ else:
             file=open(g1,'r')
             print tail_n_lines(g1,9,0)
             st_results = os.stat(g1)
-            st_size = st_results[6]
+            st_size = st_results[5]
             file.seek(st_size)
             while True:
                 where = file.tell()
